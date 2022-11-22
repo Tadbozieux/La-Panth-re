@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1040,3 +1040,13 @@ h4 {
         text-align: center;
     }
 }
+
+.introduction
+{font-size: 22px;
+line-height: 25% ;
+font-weight: bold;}
+
+
+.signature
+{font-size: 22px;
+    line-height: 200% ;}
