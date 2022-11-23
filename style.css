@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(53, 47, 47, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -767,7 +767,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #f0f0f0;
 }
 
 .bgc-atomic-tangerine {
@@ -775,7 +775,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f3976c !important;
+  
 }
 
 .btn-atomic-tangerine {
@@ -1050,3 +1051,38 @@ font-weight: bold;}
 .signature
 {font-size: 22px;
     line-height: 200% ;}
+
+
+.tc-contact
+{color: #F3976C!important;
+font-weight: bold;
+font-size: 40px;
+background-color: rgb(222, 216, 216);
+border-radius: 20px;
+
+}
+
+
+.footertc
+{color: #000000!important;
+font-size: 20px;
+width: 100%;}
+
+.footertc ul{padding-left: 0;
+color: #000000;
+display:flex;
+justify-content: space-between;
+list-style-type: none;}
+
+.footertc a{color: #000000!important;
+}
+
+.partenaires
+{display: flex;
+justify-content: center;
+margin: auto;
+padding-top: 20px;}
+
+
+
+.hero-bloc-text2{color: #000000!important;}
