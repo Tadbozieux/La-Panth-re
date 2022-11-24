@@ -401,6 +401,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
+    
+
 }
 
 .nav > li > .dropdown a {
@@ -1027,6 +1030,13 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .partenaires, ul
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1043,20 +1053,23 @@ h4 {
 }
 
 .introduction
-{font-size: 22px;
-line-height: 25% ;
-font-weight: bold;}
+{display: block;
+    
+    font-size: 22px;
+
+font-weight: bold;
+}
 
 
 .signature
 {font-size: 22px;
-    line-height: 200% ;}
+line-height: 200% ;
+margin-top: 20px;}
 
 
 .tc-contact
 {color: #F3976C!important;
 font-weight: bold;
-font-size: 40px;
 background-color: rgb(222, 216, 216);
 border-radius: 20px;
 
@@ -1082,6 +1095,24 @@ list-style-type: none;}
 justify-content: center;
 margin: auto;
 padding-top: 20px;}
+
+
+.partenaires, ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    
+
+}
+
+.partenaires, li
+{
+color: #000000!important;
+    font-weight: bold;
+    font-size: large;
+}
 
 
 
