@@ -654,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -695,7 +695,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -739,8 +739,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
+
+.black
+{color: #000000;}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -778,12 +781,12 @@ h4 {
 }
 
 .tc-white {
-    color: #f3976c !important;
+    color: #AF410E !important;
   
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #000000;
     color: #FFFFFF!important;
 }
 
@@ -1053,7 +1056,7 @@ margin-top: 20px;}
 
 
 .tc-contact
-{color: #F3976C!important;
+{color: #000000!important;
 font-weight: bold;
 background-color: rgb(222, 216, 216);
 border-radius: 20px;
@@ -1088,6 +1091,7 @@ padding-top: 20px;}
     justify-content: space-between;
     text-decoration: none;
     list-style-type: none;
+    color: #000000;
     
 
 }
